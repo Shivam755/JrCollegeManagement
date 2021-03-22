@@ -53,7 +53,7 @@ def change_theme():
 # Connecting to the server
 jr_college_db = mysql.connector.connect(
     host='localhost',#host for database
-    user='root',
+    user='',#userid to connect to database
     passwd='',#root password for database connection
     database='jr_college'#database name
 )
